@@ -55,7 +55,7 @@ nav .logo {
 h1 {
   font-size: 6.4rem;
   text-transform: uppercase;
-  width: 600px;
+  max-width: 600px;
 }
 p {
   color: #FFF;
@@ -191,49 +191,71 @@ h3 {
   justify-content: space-evenly;
 }
 /* Skills Icons Hover States */
-.devicon-html5-plain:hover {
+.devicon-html5-plain:hover,
+.devicon-html5-plain:active {
   color: #e54d26;
   transform: scale(1.1);
+  transition: transform 1s;
 }
-.devicon-css3-plain:hover {
+.devicon-css3-plain:hover,
+.devicon-css3-plain:active {
  color: #3d8fc6;
  transform: scale(1.1);
+ transition: transform 1s;
 }
-.devicon-javascript-plain:hover {
+.devicon-javascript-plain:hover,
+.devicon-javascript-plain:active {
   color: #f0db4f;
   transform: scale(1.1);
+  transition: transform 1s;
  }
- .devicon-react-original:hover {
+.devicon-react-original:hover,
+.devicon-react-original:active {
   color: #61dafb;
   transform: scale(1.1);
+  transition: transform 1s;
  }
- .devicon-firebase-plain:hover {
+ .devicon-firebase-plain:hover,
+ .devicon-firebase-plain:active {
   color: #f58220;
   transform: scale(1.1);
+  transition: transform 1s;
  }
- .devicon-sass-original:hover {
+ .devicon-sass-original:hover,
+ .devicon-sass-original:active {
   color: #c69;
   transform: scale(1.1);
+  transition: transform 1s;
  }
- .devicon-git-plain:hover {
+ .devicon-git-plain:hover,
+ .devicon-git-plain:active {
   color: #f34f29;
   transform: scale(1.1);
+  transition: transform 1s;
  }
- .devicon-github-original:hover {
+ .devicon-github-original:hover,
+ .devicon-github-original:active {
   color: #FFF;
   transform: scale(1.1);
+  transition: transform 1s;
  }
- .fa-cogs:hover {
+ .fa-cogs:hover,
+ .fa-cogs:active {
   color: #f58220;
   transform: scale(1.1);
+  transition: transform 1s;
  }
- .fa-universal-access:hover {
+ .fa-universal-access:hover,
+ .fa-universal-access:active {
   color: #0077c8;
   transform: scale(1.1);
+  transition: transform 1s;
  }
- .fa-pencil-ruler:hover {
+ .fa-pencil-ruler:hover,
+ .fa-pencil-ruler:active {
   color: yellow;
   transform: scale(1.1);
+  transition: transform 1s;
  }
  /* Portfolio section */
 .sites {
@@ -371,6 +393,21 @@ form button:hover {
 /* Media Queries */
 
 @media (max-width: 1060px) {
+
+  .wrapper {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  .greetingEnd {
+    line-height: 0;
+  }
+
   form .flexRow {
     flex-direction: column;
   }
@@ -385,5 +422,9 @@ form button:hover {
 
   .leftForm input:nth-of-type(3) {
   margin-bottom: 30px;
-}
+  } 
+
+  .circles {
+    display: none;
+  }
 }
