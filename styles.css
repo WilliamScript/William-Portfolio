@@ -404,6 +404,10 @@ form button:hover {
     font-size: 5rem;
   }
 
+  h2 {
+    font-size: 3rem !important;
+  }
+
   .greetingEnd {
     line-height: 0;
   }
