@@ -296,6 +296,7 @@ form div {
   justify-content: space-between;
 }
 .leftForm input {
+  color: #FFF;
   border: transparent;
   border-bottom: 1px solid #888;
   font-size: 1.8rem;
@@ -317,7 +318,8 @@ textarea {
   border: transparent;
   border-bottom: 1px solid #888;
   background: transparent;
-  margin-right: 10rem;
+  margin: 0 0 0 5rem;
+  width: 100%;
   font-size: 1.8rem;
   resize: none;
 }
@@ -360,4 +362,28 @@ form button:hover {
 }
 .links p a:hover {
   text-decoration: underline;
+}
+
+::placeholder {
+  color: #999;
+}
+
+/* Media Queries */
+
+@media (max-width: 1060px) {
+  form .flexRow {
+    flex-direction: column;
+  }
+
+  textarea {
+    margin: 0;
+  }
+
+  .leftForm input {
+    width: 100%;
+  }
+
+  .leftForm input:nth-of-type(3) {
+  margin-bottom: 30px;
+}
 }
