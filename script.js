@@ -5,7 +5,7 @@ const liveRepoThree = document.getElementById('liveRepoThree');
 
 function dropDownFunctionOne() {
   liveRepoOne.classList.add("imageOneLinks")
-  liveRepoOne.innerHTML = `<p><a href="https://paul-william-project.github.io/Paul-William-Project-Two/">Live</a> | <a href="">Repo</a></p>`
+  liveRepoOne.innerHTML = `<p><a href="https://paul-william-project.github.io/Paul-William-Project-Two/">Live</a> | <a href="https://github.com/Paul-William-Project/Paul-William-Project-Two">Repo</a></p>`
 }
 function dropDownFunctionTwo() {
   liveRepoTwo.classList.add("imageTwoLinks")
@@ -13,7 +13,7 @@ function dropDownFunctionTwo() {
 }
 function dropDownFunctionThree() {
   liveRepoThree.classList.add("imageThreeLinks")
-  liveRepoThree.innerHTML = `<p><a href="https://confident-perlman-5594c2.netlify.app/">Live</a> | <a href="">Repo</a></p>`
+  liveRepoThree.innerHTML = `<p><a href="https://confident-perlman-5594c2.netlify.app/">Live</a> | <a href="https://github.com/UndercoverGAWS/outOfContextMovieSpoiler">Repo</a></p>`
 }
 
 const imageOne = document.getElementById('imageOne');
