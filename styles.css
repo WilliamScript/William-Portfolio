@@ -306,11 +306,14 @@ h1 {
 
 p {
   color: #fff;
-  padding-right: 200px;
   margin: -20px 0 0 0;
   font-family: "Open Sans", sans-serif;
   font-size: 1.9rem;
   line-height: 3.2rem;
+}
+
+.firstHeading p {
+  padding-right: 100px;
 }
 
 .firstHeading {
@@ -805,10 +808,6 @@ form button:hover {
 
   h2 {
     font-size: 3rem !important;
-  }
-
-  p {
-    padding-right: 100px;
   }
 
   .greetingEnd {
