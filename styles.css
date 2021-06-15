@@ -485,10 +485,7 @@ p {
 .socials {
   align-self: flex-end;
   font-size: 20px;
-  margin-left: 20px;
   margin-bottom: 10px;
-  position: absolute;
-  right: 0;
 }
 
 .socials a {
@@ -837,16 +834,14 @@ form button:hover {
 
 @media (max-width: 468px) {
   .profilePic {
-    margin-bottom: 50px;
     height: 50vh;
   }
 
   header main.flexRow {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .firstHeading {
-    margin-top: 85px;
     margin-right: 2.7rem;
     text-align: center;
   }
@@ -857,6 +852,7 @@ form button:hover {
 
   .firstHeading p {
     padding-right: 0;
+    padding-bottom: 50px;
   }
 }
 
