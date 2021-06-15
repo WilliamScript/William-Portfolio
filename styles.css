@@ -855,7 +855,7 @@ form button:hover {
     font-size: 3.8rem;
   }
 
-  p {
+  .firstHeading p {
     padding-right: 0;
   }
 }
